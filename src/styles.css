@@ -16,17 +16,20 @@ h1, h2, h3, h4, h5, h6{
 
 .myHeader{
     background-color: var(--color-tertiary);
+    height: 15vh;
 }
 .myHeader h1{
     color: var(--color-darkest);
 }
 .main{
     background-color: var(--color-lightest);
+    height: 70vh;
 }
 .main h2, h3, h4, h5, h6{
     color: var(--color-darkest);
 }
 .myFooter{
     background-color: var(--color-darkest);
+    height: 15vh;
 }
 
