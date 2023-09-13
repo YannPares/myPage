@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color-darkest: #554348;
+    --color-lightest: #D4F5F5;
+    --color-primary: #8C9A9E;
+    --color-secondary: #747578;
+    --color-tertiary: #93B7BE;
+}
+
+.myHeader{
+    background-color: var(--color-tertiary);
+}
+.myHeader h1{
+    color: var(--color-darkest);
+}
+.main{
+    background-color: var(--color-lightest);
+}
+.main h2, h3, h4, h5, h6{
+    color: var(--color-darkest);
+}
+.myFooter{
+    background-color: var(--color-darkest);
+}
+
